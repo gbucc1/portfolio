@@ -1,1 +1,24 @@
-
+li {
+  list-style-type: none;
+  margin: 0 2vw;
+  font-size: 3vh;
+}
+a {
+  text-decoration: none;
+  color: white;
+  padding: 2vw;
+  font-family: monospace;
+}
+nav {
+  width: 100vw;
+  background-color: #6C6C6C;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  
+  display: flex;
+}
+body {
+  margin: 0;
+}
