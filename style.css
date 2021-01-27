@@ -1,0 +1,103 @@
+body {
+	background-image: url('background.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed; 
+	background-size: 100%;
+}
+li{
+  list-style-type: none;
+  margin: 2vw 0;
+  font-size: 20px;
+}
+name {
+	background-color: #C6E9FF;
+	text-decoration: none;
+	font-size: 36.2px;
+	font-family: helvetica;
+	color: black;
+	padding: 35px;
+}
+.menuLink{
+  text-decoration: none;
+  color: black;
+  font-family: monospace;
+  padding: 35px;
+}
+
+nav{
+  width: 225px;
+  background-color: #D6EFFF;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  height: 525px;
+  
+}
+
+ul{
+  display: block;
+  margin: 0;
+  padding: 0;
+  flex-direction: column;
+  display: flex;  
+}
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+button{
+  display: none;
+}
+
+.menuLink:hover{
+  background-color: #C6E9FF;
+}
+.changeColor {
+	font-size: 50px;
+	color: #2ECCFA;
+}
+.home {
+	position: relative;
+	left: 250px;
+	top: 25px;
+	font-family: helevetica;
+	font-size: 30px;
+	padding: 10px;
+	padding-top: 0px;
+	height: 575px;
+	width: 800px;
+	border: 2px solid white;
+	background-color: white;
+}
+.modules {
+	position: relative;
+	left: 250px;
+	top: 25px;
+	font-family: helevetica;
+	font-size: 20px;
+	padding: 10px;
+	padding-top: 0px;
+	height: 1950px;
+	width: 775px;
+	border: 2px solid white;
+	background-color: white;
+}
+.projects {
+	position: relative;
+	left: 250px;
+	top: 25px;
+	font-family: helevetica;
+	font-size: 20px;
+	padding: 10px;
+	padding-top: 0px;
+	height: 4250px;
+	width: 800px;
+	border: 2px solid white;
+	background-color: white;
+}
+.pic {
+	height: 400px;
+	width: 400px;
+}
